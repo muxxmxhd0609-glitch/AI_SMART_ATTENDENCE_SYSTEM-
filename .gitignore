@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment & Virtualenvs
+.env
+.env.*
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Database files & SQLite journals
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+
+# Large Archives & Backups
+*.zip
+*.tar.gz
+*.rar
+*.7z
+AI-SMART-ATTENDANCE-MASTER.zip
+
+# Biometric Captures & Live Datasets (keep directories with .gitkeep)
+backend/attendance_images/*
+!backend/attendance_images/.gitkeep
+backend/dataset/*
+!backend/dataset/.gitkeep
+backend/unknown_faces/*
+!backend/unknown_faces/.gitkeep
+backend/scratch/
+
+# Node & Frontend
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+dist-ssr/
+*.local
+
+# Editor & IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs & temporary debug scripts
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+check_passwords.py
+check_records.py

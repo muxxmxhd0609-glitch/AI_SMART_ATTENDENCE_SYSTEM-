@@ -1,0 +1,9 @@
+{
+  "appId": "in.ac.rgit.attendance",
+  "appName": "RGIT Smart Attendance",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  }
+}
